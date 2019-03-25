@@ -14,6 +14,8 @@
 		A51463F622486B3B007DBFF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A51463F422486B3B007DBFF1 /* LaunchScreen.storyboard */; };
 		A514640122486B3B007DBFF1 /* TabBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A514640022486B3B007DBFF1 /* TabBarTests.swift */; };
 		A514640C22486B3B007DBFF1 /* TabBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A514640B22486B3B007DBFF1 /* TabBarUITests.swift */; };
+		A5146420224878D9007DBFF1 /* ScreenOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A514641F224878D9007DBFF1 /* ScreenOneViewController.swift */; };
+		A514642222487926007DBFF1 /* ScreenTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A514642122487926007DBFF1 /* ScreenTwoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		A514640722486B3B007DBFF1 /* TabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A514640B22486B3B007DBFF1 /* TabBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarUITests.swift; sourceTree = "<group>"; };
 		A514640D22486B3B007DBFF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A514641F224878D9007DBFF1 /* ScreenOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenOneViewController.swift; sourceTree = "<group>"; };
+		A514642122487926007DBFF1 /* ScreenTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTwoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				A51463EB22486B3A007DBFF1 /* AppDelegate.swift */,
 				A51463ED22486B3A007DBFF1 /* ViewController.swift */,
+				A514641F224878D9007DBFF1 /* ScreenOneViewController.swift */,
+				A514642122487926007DBFF1 /* ScreenTwoViewController.swift */,
 				A51463EF22486B3A007DBFF1 /* Main.storyboard */,
 				A51463F222486B3B007DBFF1 /* Assets.xcassets */,
 				A51463F422486B3B007DBFF1 /* LaunchScreen.storyboard */,
@@ -257,6 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A51463EE22486B3A007DBFF1 /* ViewController.swift in Sources */,
+				A514642222487926007DBFF1 /* ScreenTwoViewController.swift in Sources */,
+				A5146420224878D9007DBFF1 /* ScreenOneViewController.swift in Sources */,
 				A51463EC22486B3A007DBFF1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
